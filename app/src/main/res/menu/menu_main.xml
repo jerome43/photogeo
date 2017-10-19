@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:photoEpsi="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+    <item android:id="@+id/map" android:title="@string/map"
+        android:icon="@drawable/ic_action_map"
+        photoEpsi:showAsAction="ifRoom" />
+    <item android:id="@+id/photo" android:title="@string/picture"
+        android:icon="@drawable/ic_action_camera"
+        photoEpsi:showAsAction="ifRoom"/>
+    <item android:id="@+id/listphoto" android:title="@string/listPicture"
+        android:icon="@drawable/ic_action_picture"
+        photoEpsi:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/clear_cache"
+        android:icon="@android:drawable/ic_menu_delete"
+        photoEpsi:showAsAction="ifRoom"
+        android:title="@string/clear_cache_menu"/>
+</menu>

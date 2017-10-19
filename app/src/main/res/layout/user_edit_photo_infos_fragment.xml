@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:id="@+id/imageView" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/infoUserEditPhoto"
+            android:id="@+id/titreFragmentPhoto"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTitre"
+            android:hint="@string/editTitre"
+            android:inputType="text"/>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editComment"
+            android:hint="@string/editComment"
+            android:inputType="text"
+            android:maxLength="500"/>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editAuthor"
+            android:hint="@string/editAuthor"
+            android:inputType="text"
+            android:maxLength="255"/>
+        <Button
+            android:id="@+id/ButtonEditTextPhoto"
+            android:layout_height="wrap_content"
+            android:text="@string/editTextButton"
+            android:onClick="enregistrerPhoto"
+            android:layout_width="fill_parent">
+        </Button>
+    </LinearLayout>
+</FrameLayout>
+
+

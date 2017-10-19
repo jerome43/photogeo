@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PhotoGéo</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="hello_world">Bonjour et bienvenue dans l\'application de partage de photos géolocalisées !</string>
+    <string name="action_settings">Paramètres</string>
+    <string name="map">Aller à la carte</string>
+    <string name="title_activity_main">PhotoGéo</string>
+    <string name="picture">Prendre une photo</string>
+    <string name="hello_blank_fragment">attributs photos</string>
+    <string name="editTitre">le titre de votre photo</string>
+    <string name="editComment">Entrez ici vos commentaires</string>
+    <string name="datePhoto">Date de la photo</string>
+    <string name="localisationPhoto">localisation de la photo</string>
+    <string name="editTextButton">Valider</string>
+    <string name="listPhoto">Liste des photos</string>
+    <string name="listPicture">liste photos</string>
+    <string name="no_network_connection_toast">pas de connexion réseau</string>
+    <string name="clear_cache_complete_toast">cache supprimé</string>
+    <string name="clear_cache_menu">vider la cache</string>
+    <string name="imageview_description">Image Thumbnail</string>
+    <string name="titrePhoto">Titre : </string>
+    <string name="commentPhoto">Commentaires : </string>
+    <string name="longitudePhoto">Longitude : </string>
+    <string name="latitudePhoto">Latitude : </string>
+    <string name="orientationPhoto">Orientation : </string>
+    <string name="authorPhoto">Auteur : </string>
+    <string name="infoUserEditPhoto">Veuillez renseigner les champs suivants et cliquer sur valider pour enregistrer votre photo.</string>
+    <string name="editAuthor">l\'auteur de la photo</string>
+
+
+</resources>
